@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>G00363430</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+
+<ion-grid *ngFor="let weather of weather">
+  <ion-row>
+    <ion-col width-50 offset-25>
+        
+      <h3 class="location">{{weather.main}}</h3>
+      <h3 class="location">{{weather.description}}</h3>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>

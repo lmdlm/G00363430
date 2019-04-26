@@ -1,0 +1,17 @@
+// http://ionicframework.com/docs/theming/
+
+
+.home{
+    background-color: color($colors, primary);
+    color: color($colors, light);
+    margin-top: 30px;
+}
+
+.toolbar-title{
+    text-align: center;
+}
+
+.tabs-md .tab-button-icon{
+    color: #ccc;
+}
+
